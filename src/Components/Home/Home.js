@@ -10,6 +10,7 @@ import PopularTeacher from './../PopularTeacher/PopularTeacher';
 const Home = () => {
     return (
         <div>
+            {/* home page component load here  */}
             <Header></Header>
             <Slider></Slider>
             <PopularTeacher></PopularTeacher>

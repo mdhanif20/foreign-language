@@ -1,3 +1,4 @@
+/* course area data css  */
 #language{
     display: grid;
     grid-template-columns: repeat(3,1fr);

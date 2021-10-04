@@ -6,19 +6,22 @@ import img from '../../images/about us/our.jpg'
 import './About.css';
 const About = () => {
     return (
+        // about page 
         <div>
             <div>
                 <Header></Header>
             </div>
             <div>
+                {/* about header  */}
             <h2 className="mt-5 mb-3">Orbin Foreign Language Traning Center</h2>
                 <Card className="w-75 m-auto mb-5">
-                    
+                    {/* about our company image  */}
                         <Card.Img variant="top"  id="about-img" src={img} />
                         
                         <Card.Body>
                         <Card.Title> <h2>OFLEC</h2> </Card.Title>
                         <Card.Text>
+                            {/* about details  */}
                         A language school is a school where one studies a foreign language. Classes at a language school are usually geared towards, for example, communicative competence in a foreign language. Language learning in such schools typically supplements formal education or existing knowledge of a foreign language.<br/><br/>
 
                         Students vary widely by age, educational background, work experience.Further, at language school students usually have the possibility of selecting a specific course according to their language proficiency. According to the Common European Framework of Reference for Languages (CEFR),[1] there are six language levels that define students language proficiency based on their speaking, writing and reading skills. Students will be then assigned to the course that matches their skills.<br/><br/>

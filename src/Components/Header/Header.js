@@ -20,7 +20,7 @@ const Header = () => {
                      </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        {/* header area page link */}
+                        {/* header area page */}
                     <Nav className="ms-auto">
                         <NavLink className="p-3 text-dark text-decoration-none fw-bold" to="/home">Home</NavLink>
                         <NavLink className="p-3 text-dark text-decoration-none fw-bold" to="/service">Service</NavLink>

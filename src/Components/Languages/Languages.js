@@ -12,6 +12,7 @@ const Languages = () => {
             <div id="language">
             {
                 languages.map(language=> <div key={language.rank}>
+                    {/* course showing cart area  */}
                     <Language  language={language}></Language>
                 </div>
                 )

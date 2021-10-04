@@ -7,12 +7,15 @@ const Contact = () => {
     return (
         <div>
             <div>
+                {/* header load  */}
                 <Header></Header>
             </div>
             <div>
+                {/* contact components load  */}
                 <ContactData></ContactData>
             </div>
             <div>
+                {/* footer load  */}
                 <Footer></Footer>
             </div>
         </div>
