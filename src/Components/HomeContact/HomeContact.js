@@ -5,6 +5,7 @@ const HomeContact = () => {
     return (
         <div>
             <h2 className="fw-bold mt-5 pb-1">Contact With Us</h2>
+            {/* contact area load  */}
             <ContactData></ContactData>
         </div>
     );

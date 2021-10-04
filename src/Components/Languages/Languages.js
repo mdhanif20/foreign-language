@@ -2,6 +2,7 @@ import Language from '../Language/Language';
 import './Languages.css';
 import LoadData from './../Hooks/LoadData';
 const Languages = () => {
+    // takes data from hook LoadData 
     const [languages] = LoadData();
     return (
         <div>

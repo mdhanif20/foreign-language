@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+// simple function for loading data from fakeData
 const LoadData = () =>{
     const [languages,setLanguages] = useState([]);
     useEffect(()=>{

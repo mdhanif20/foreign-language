@@ -5,6 +5,7 @@ import './Services.css';
 import LoadData from './../Hooks/LoadData';
 import Service from '../Service/Service';
 const Services = () => {
+    // load fake data from hooks 
     const [languages] = LoadData();
     return (
         <div>

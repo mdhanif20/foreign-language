@@ -8,15 +8,21 @@ const Service = (props) => {
     const element = <FontAwesomeIcon icon={faStar} />
     return (
         <div id="service-area">
+            {/* service area card  */}
             <Card>
+                {/* tutor image  */}
                 <Card.Img variant="top" src={tutorImg} />
+                {/* course details  */}
                 <Card.Body>
-                <p id="course-tutor"> <strong>Tutor {tutor}</strong> </p>
-                    <Card.Title> <h3>Learn {language} Language With Our Tutor</h3> </Card.Title>
-                     <br/>
-                   <p id="course-description"><strong>Total Lession: {totalLession}</strong>
+                    <p id="course-tutor"> <strong>Tutor {tutor}</strong> </p>
+
+                    <Card.Title> <h3>Learn {language} Language With Our Tutor</h3> </Card.Title><br/>
+
+                     
+                   <p id="course-description"><strong>Total Lession{totalLession}</strong>
                     <strong>{element} {totalRetting}</strong>
                     <strong>${price}</strong></p>
+
                     <Card.Text>
                         <p>Course Details</p>
                         {details.slice(1,300)}

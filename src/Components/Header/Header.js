@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg" className="p-0">
                 <Container className="fs-5">
-                    {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+                    {/* header logo  */}
                     <Navbar.Brand href="#home">
                         <img
                             src={logo}
@@ -20,9 +20,8 @@ const Header = () => {
                      </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
+                        {/* header area page link */}
                     <Nav className="ms-auto">
-                        {/* <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link> */}
                         <NavLink className="p-3 text-dark text-decoration-none fw-bold" to="/home">Home</NavLink>
                         <NavLink className="p-3 text-dark text-decoration-none fw-bold" to="/service">Service</NavLink>
                         <NavLink className="p-3 text-dark text-decoration-none fw-bold" to="/about">About Us</NavLink>

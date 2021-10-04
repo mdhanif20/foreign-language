@@ -6,12 +6,15 @@ const Slider = () => {
     return (
         <div>
            <Carousel>
+               {/* single slider  */}
                 <Carousel.Item interval={1000}>
+                    {/* slider image  */}
                     <img
                     className="d-block w-100"
                     src="https://image.freepik.com/free-photo/front-view-female-student-wearing-backpack-holding-copybook-pen-thinking-blue-wall_140725-46520.jpg"
                     alt="First slide"
                     />
+                    {/* slider details  */}
                     <Carousel.Caption>
                     <h3>Orbin Foreign Language Training Center</h3>
                     <p>The Orbin Foreign Language Training Center (OFLEC) office administers Title VI (domestic) and Fulbright-Hays (overseas) grant and fellowship programs that strengthen foreign language instruction, area/international studies teaching and research, professional development for educators, and curriculum development at the K-12, graduate, and postsecondary levels.</p>
@@ -20,12 +23,15 @@ const Slider = () => {
                     </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
+                 {/* single slider  */}
                 <Carousel.Item interval={1000}>
+                    {/* slider image  */}
                     <img
                     className="d-block w-100"
                     src="https://image.freepik.com/free-photo/front-view-male-student-green-checkered-shirt-with-black-backpack-holding-copybooks-smiling-blue-wall_140725-42439.jpg"
                     alt="Second slide"
                     />
+                     {/* slider details  */}
                     <Carousel.Caption>
                     <h3>Orbin Foreign Language Training Center</h3>
                     <p>The Orbin Foreign Language Training Center (OFLEC) office administers Title VI (domestic) and Fulbright-Hays (overseas) grant and fellowship programs that strengthen foreign language instruction, area/international studies teaching and research, professional development for educators, and curriculum development at the K-12, graduate, and postsecondary levels.</p>
@@ -34,12 +40,15 @@ const Slider = () => {
                     </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
+                 {/* single slider  */}
                 <Carousel.Item>
+                    {/* slider image  */}
                     <img
                     className="d-block w-100"
                     src="https://image.freepik.com/free-photo/front-view-male-student-dark-t-shirt-yellow-backpack-holding-different-files-coffee-blue-wall_140725-46680.jpg"
                     alt="Third slide"
                     />
+                     {/* slider details  */}
                     <Carousel.Caption>
                     <h3>Orbin Foreign Language Training Center</h3>
                     <p>The Orbin Foreign Language Training Center (OFLEC) office administers Title VI (domestic) and Fulbright-Hays (overseas) grant and fellowship programs that strengthen foreign language instruction, area/international studies teaching and research, professional development for educators, and curriculum development at the K-12, graduate, and postsecondary levels.</p>
