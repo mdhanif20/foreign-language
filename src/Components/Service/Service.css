@@ -1,0 +1,11 @@
+#service-area{
+    padding: 4% 4%;
+}
+p#course-tutor {
+    margin-bottom: 0;
+}
+p#course-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

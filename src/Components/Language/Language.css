@@ -1,0 +1,31 @@
+div#couse-details {
+    padding: 0;
+    background: rgb(13 13 13 / 29%);
+    margin-bottom: 17%;
+}
+div#coust-info {
+    margin-top: 16%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0% 17%; */
+}
+div#tutor-inf0 {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img#tutor-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+/* h5#img-header {
+    padding-top: 13%;
+} */
+button#show-details {
+    margin-top: 18%;
+}
